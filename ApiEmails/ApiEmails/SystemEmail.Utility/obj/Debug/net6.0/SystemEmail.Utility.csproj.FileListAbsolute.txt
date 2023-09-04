@@ -1,0 +1,17 @@
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\bin\Debug\net6.0\SystemEmail.Utility.deps.json
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\bin\Debug\net6.0\SystemEmail.Utility.dll
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\bin\Debug\net6.0\SystemEmail.Utility.pdb
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\obj\Debug\net6.0\SystemEmail.Utility.csproj.AssemblyReference.cache
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\obj\Debug\net6.0\SystemEmail.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\obj\Debug\net6.0\SystemEmail.Utility.AssemblyInfoInputs.cache
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\obj\Debug\net6.0\SystemEmail.Utility.AssemblyInfo.cs
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\obj\Debug\net6.0\SystemEmail.Utility.csproj.CoreCompileInputs.cache
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\obj\Debug\net6.0\SystemEmail.Utility.dll
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\obj\Debug\net6.0\refint\SystemEmail.Utility.dll
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\obj\Debug\net6.0\SystemEmail.Utility.pdb
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\obj\Debug\net6.0\ref\SystemEmail.Utility.dll
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\bin\Debug\net6.0\SystemEmail.DTO.dll
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\bin\Debug\net6.0\SystemEmail.Model.dll
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\bin\Debug\net6.0\SystemEmail.DTO.pdb
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\bin\Debug\net6.0\SystemEmail.Model.pdb
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.Utility\obj\Debug\net6.0\SystemEmail.Utility.csproj.CopyComplete
