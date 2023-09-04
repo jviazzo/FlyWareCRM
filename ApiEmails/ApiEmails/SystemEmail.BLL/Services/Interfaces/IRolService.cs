@@ -8,7 +8,7 @@ using SystemEmail.DTO;
 
 namespace SystemEmail.BLL.Services.Interfaces
 {
-    public interface IRolServices
+    public interface IRolService
     {
 
         Task<List<RolDTO>> List();

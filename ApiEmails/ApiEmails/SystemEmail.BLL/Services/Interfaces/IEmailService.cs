@@ -10,7 +10,7 @@ namespace SystemEmail.BLL.Services.Interfaces
 {
     public interface IEmailService
     {
-        Task<EmailDTO> Create(EmailDTO model);
+        Task<EmailDTO> Save(EmailDTO model);
 
         Task<List<EmailDTO>> EmailLog(string searchBy, string email, string dateIni, string dateEnd);
 

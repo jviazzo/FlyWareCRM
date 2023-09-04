@@ -13,7 +13,7 @@ namespace SystemEmail.BLL.Services.Interfaces
 {
     public interface IClientService
     {
-        Task<List<ClientDTO>> ListUserDTO();
+        Task<List<ClientDTO>> List();
 
         Task<ClientDTO> CreateClient(ClientDTO model);
 

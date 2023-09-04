@@ -25,7 +25,7 @@ namespace SystemEmail.BLL.Services
             _mapper = mapper;
         }
 
-        public async Task<List<UserDTO>> ListUserDTO()
+        public async Task<List<UserDTO>> List()
         {
 
             try

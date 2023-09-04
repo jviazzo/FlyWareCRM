@@ -23,7 +23,7 @@ namespace SystemEmail.BLL.Services
             _mapper = mapper;
         }
 
-        public async Task<EmailDTO> Create(EmailDTO model)
+        public async Task<EmailDTO> Save(EmailDTO model)
         {
             try
             {

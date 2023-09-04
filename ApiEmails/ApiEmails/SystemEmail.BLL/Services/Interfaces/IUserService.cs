@@ -9,7 +9,7 @@ namespace SystemEmail.BLL.Services.Interfaces
 {
     public interface IUserService
     {
-        Task<List<UserDTO>> ListUserDTO();
+        Task<List<UserDTO>> List();
 
         Task<SessionDTO> ValidateToken(string email, string password);
 

@@ -11,7 +11,7 @@ using SystemEmail.Model;
 
 namespace SystemEmail.BLL.Services
 {
-    public class RolService : IRolServices
+    public class RolService : IRolService
     {
 
         private readonly IGenericRepository<Rol> _rolRepository;
