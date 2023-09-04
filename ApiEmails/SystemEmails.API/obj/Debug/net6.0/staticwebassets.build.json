@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "02i6gMU0QsmEwvE5ijnvVY/Qr1+K55PfmSOxTpzL9sE=",
+  "Source": "SystemEmail.API",
+  "BasePath": "_content/SystemEmail.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

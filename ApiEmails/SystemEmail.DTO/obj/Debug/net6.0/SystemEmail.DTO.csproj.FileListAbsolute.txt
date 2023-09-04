@@ -1,0 +1,12 @@
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.DTO\bin\Debug\net6.0\SystemEmail.DTO.deps.json
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.DTO\bin\Debug\net6.0\SystemEmail.DTO.dll
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.DTO\bin\Debug\net6.0\SystemEmail.DTO.pdb
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.DTO\obj\Debug\net6.0\SystemEmail.DTO.csproj.AssemblyReference.cache
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.DTO\obj\Debug\net6.0\SystemEmail.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.DTO\obj\Debug\net6.0\SystemEmail.DTO.AssemblyInfoInputs.cache
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.DTO\obj\Debug\net6.0\SystemEmail.DTO.AssemblyInfo.cs
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.DTO\obj\Debug\net6.0\SystemEmail.DTO.csproj.CoreCompileInputs.cache
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.DTO\obj\Debug\net6.0\SystemEmail.DTO.dll
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.DTO\obj\Debug\net6.0\refint\SystemEmail.DTO.dll
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.DTO\obj\Debug\net6.0\SystemEmail.DTO.pdb
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\ApiEmails\SystemEmail.DTO\obj\Debug\net6.0\ref\SystemEmail.DTO.dll
