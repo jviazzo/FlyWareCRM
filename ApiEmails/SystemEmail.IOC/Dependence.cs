@@ -10,6 +10,8 @@ using SystemEmail.DAL.DBContext;
 using SystemEmail.DAL.Repository.Interfaces;
 using SystemEmail.DAL.Repository;
 using SystemEmail.Utility;
+using SystemEmail.BLL.Services.Interfaces;
+using SystemEmail.BLL.Services;
 
 namespace SystemEmail.IOC
 {
@@ -29,6 +31,15 @@ namespace SystemEmail.IOC
 
 
             services.AddAutoMapper(typeof(AutoMapperProfile));
+
+
+            services.AddScoped<IRolService, RolService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IMenuService, MenuService>();
+            services.AddScoped<IClientService, ClientService>();
+            services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<IDashBoardService , DashBoardService>();
 
         
         }

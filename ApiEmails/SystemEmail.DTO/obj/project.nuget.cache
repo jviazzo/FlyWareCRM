@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VrGg4Ss0gnxRaiBZN6xphjhIkhF7+hNpXaGHinRTdaW93mjID0hYDX5QFLup0fC0NSavpC5kRo6MBznrsPh83A==",
+  "dgSpecHash": "v/mx0DBeAL98CDgEf9KK5QSGe7MMjryuXuuzJmuA35SxEKPo51ITRl8RiEyoH5ei6eGBlzYkG/zMTlC/ZtkOTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj",
+  "projectFilePath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

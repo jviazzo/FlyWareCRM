@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.BLL\\SystemEmail.BLL.csproj": {}
+    "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.BLL\\SystemEmail.BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.BLL\\SystemEmail.BLL.csproj": {
+    "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.BLL\\SystemEmail.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.BLL\\SystemEmail.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.BLL\\SystemEmail.BLL.csproj",
         "projectName": "SystemEmail.BLL",
-        "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.BLL\\SystemEmail.BLL.csproj",
+        "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.BLL\\SystemEmail.BLL.csproj",
         "packagesPath": "C:\\Users\\juans\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.BLL\\obj\\",
+        "outputPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,17 +32,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DAL\\SystemEmail.DAL.csproj": {
-                "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DAL\\SystemEmail.DAL.csproj"
+              "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DAL\\SystemEmail.DAL.csproj": {
+                "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DAL\\SystemEmail.DAL.csproj"
               },
-              "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj": {
-                "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj"
+              "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj": {
+                "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj"
               },
-              "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj": {
-                "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj"
+              "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj": {
+                "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj"
               },
-              "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Utility\\SystemEmail.Utility.csproj": {
-                "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Utility\\SystemEmail.Utility.csproj"
+              "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Utility\\SystemEmail.Utility.csproj": {
+                "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Utility\\SystemEmail.Utility.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DAL\\SystemEmail.DAL.csproj": {
+    "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DAL\\SystemEmail.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DAL\\SystemEmail.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DAL\\SystemEmail.DAL.csproj",
         "projectName": "SystemEmail.DAL",
-        "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DAL\\SystemEmail.DAL.csproj",
+        "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DAL\\SystemEmail.DAL.csproj",
         "packagesPath": "C:\\Users\\juans\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DAL\\obj\\",
+        "outputPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,8 +103,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj": {
-                "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj"
+              "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj": {
+                "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj"
               }
             }
           }
@@ -137,14 +137,14 @@
         }
       }
     },
-    "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj": {
+    "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj",
         "projectName": "SystemEmail.DTO",
-        "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj",
+        "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj",
         "packagesPath": "C:\\Users\\juans\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DTO\\obj\\",
+        "outputPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -195,14 +195,14 @@
         }
       }
     },
-    "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj": {
+    "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj",
+        "projectUniqueName": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj",
         "projectName": "SystemEmail.Model",
-        "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj",
+        "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj",
         "packagesPath": "C:\\Users\\juans\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Model\\obj\\",
+        "outputPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -265,14 +265,14 @@
         }
       }
     },
-    "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Utility\\SystemEmail.Utility.csproj": {
+    "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Utility\\SystemEmail.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Utility\\SystemEmail.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Utility\\SystemEmail.Utility.csproj",
         "projectName": "SystemEmail.Utility",
-        "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Utility\\SystemEmail.Utility.csproj",
+        "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Utility\\SystemEmail.Utility.csproj",
         "packagesPath": "C:\\Users\\juans\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Utility\\obj\\",
+        "outputPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -293,11 +293,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj": {
-                "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj"
+              "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj": {
+                "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.DTO\\SystemEmail.DTO.csproj"
               },
-              "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj": {
-                "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj"
+              "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj": {
+                "projectPath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj"
               }
             }
           }

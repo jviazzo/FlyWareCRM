@@ -11,6 +11,17 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.InjectDependences(builder.Configuration);
 
+
+//activacion de Cors
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("NewRules", app =>
+    {
+        app.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -21,6 +32,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+//activar la autorizacion.
+
+app.UseCors("NewRules");
 
 app.UseAuthorization();
 

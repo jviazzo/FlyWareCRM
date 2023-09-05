@@ -4,6 +4,8 @@ using SystemEmail.BLL.Services.Interfaces;
 using SystemEmail.DTO;
 using SystemEmail.API.Utility;
 using SystemEmail.BLL.Services;
+
+
 namespace SystemEmail.API.Controllers
 {
     [Route("api/[controller]")]
@@ -11,11 +13,11 @@ namespace SystemEmail.API.Controllers
     public class ClientController : ControllerBase
     {
 
-        private readonly IClientService clientService;
+        private readonly IClientService _clientService;
 
         public ClientController(IClientService clientService)
         {
-            this.clientService = clientService;
+            this._clientService = clientService;
         }
 
 
@@ -30,7 +32,7 @@ namespace SystemEmail.API.Controllers
             try
             {
                 response.Status = true;
-                response.Value = await clientService.List();
+                response.Value = await _clientService.List();
             }
             catch (Exception ex)
             {
@@ -51,7 +53,7 @@ namespace SystemEmail.API.Controllers
             try
             {
                 response.Status = true;
-                response.Value = await clientService.CreateClient(client);
+                response.Value = await _clientService.CreateClient(client);
             }
             catch (Exception ex)
             {
@@ -73,7 +75,7 @@ namespace SystemEmail.API.Controllers
             try
             {
                 response.Status = true;
-                response.Value = await clientService.EditClient(client);
+                response.Value = await _clientService.EditClient(client);
             }
             catch (Exception ex)
             {
@@ -94,7 +96,7 @@ namespace SystemEmail.API.Controllers
             try
             {
                 response.Status = true;
-                response.Value = await clientService.Delete(id);
+                response.Value = await _clientService.Delete(id);
             }
             catch (Exception ex)
             {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/E11WZmzIvnkIcjXAFWiwjv/PGbZ6fv1FFGXvkxn+BrZbcEZ4Pnes+h0bSGXGXidZuiyVcEifygmUhUm2Pi74w==",
+  "dgSpecHash": "XkdUB9wA36hop77kqp2yeMtifJGPhz8RfsHZssM3+ZiUjNunEuuLvuxMY7DO9vIzuXqcipJlvPD9uTO0g5es7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj",
+  "projectFilePath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juans\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

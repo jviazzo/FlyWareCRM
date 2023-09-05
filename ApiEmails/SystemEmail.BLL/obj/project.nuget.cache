@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BH2KMRf1wkJs3mQ8TDndexwOpIKFHp7scZCOwjpMPKPeUNE0xWJDpFswPJW8THXH/iA6qdjAKY/Awl4unru3LA==",
+  "dgSpecHash": "+/ohSjenUA9TLQjUs6T4vR5G03D+97PMon0Vv+vKORmZktwzt2Oyb4fPglhT6M5tr8GM8nJlAkn2eDIRBFqSuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\ApiEmails\\SystemEmail.BLL\\SystemEmail.BLL.csproj",
+  "projectFilePath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.BLL\\SystemEmail.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juans\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

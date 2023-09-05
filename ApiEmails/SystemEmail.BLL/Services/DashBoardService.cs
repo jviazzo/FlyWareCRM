@@ -7,13 +7,13 @@ using SystemEmail.Model;
 
 namespace SystemEmail.BLL.Services
 {
-    public class DashBoardRepositorio : IDashBoardService
+    public class DashBoardService : IDashBoardService
     {
 
         private readonly IGenericRepository<Client> _clientlRepository;
         private readonly IMapper _mapper;
 
-        public DashBoardRepositorio(IGenericRepository<Client> clientlRepository, IMapper mapper)
+        public DashBoardService(IGenericRepository<Client> clientlRepository, IMapper mapper)
         {
             _clientlRepository = clientlRepository;
             _mapper = mapper;
@@ -40,6 +40,9 @@ namespace SystemEmail.BLL.Services
 
         }
 
-
+        Task<DashBoardDTO> IDashBoardService.Summary()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
