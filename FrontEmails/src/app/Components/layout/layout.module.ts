@@ -8,6 +8,7 @@ import { ClientComponent } from './Pages/client/client.component';
 import { EmailComponent } from './Pages/email/email.component';
 import { EmailLogComponent } from './Pages/email-log/email-log.component';
 import { ReportComponent } from './Pages/report/report.component';
+import { SharedModule } from 'src/app/Reusable/shared/shared.module';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ReportComponent } from './Pages/report/report.component';
   ],
   imports: [
     CommonModule,
-    LayoutRoutingModule
+    LayoutRoutingModule,
+    SharedModule
   ]
 })
 export class LayoutModule { }

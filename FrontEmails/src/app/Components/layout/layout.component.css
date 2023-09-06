@@ -1,0 +1,7 @@
+.icon-text {
+  margin-left: 20px; /* Ajusta este valor según tu preferencia para el espacio entre el ícono y el texto */
+  display: inline;
+  align-items: flex-start;
+  font-size: 20px; /* Ajusta este valor según tu preferencia para el tamaño de la fuente */
+}
+
