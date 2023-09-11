@@ -5,3 +5,9 @@
   font-size: 20px; /* Ajusta este valor según tu preferencia para el tamaño de la fuente */
 }
 
+.icon-display {
+  transform: scale(1);
+  display: flex;
+  align-items: middle;
+
+}

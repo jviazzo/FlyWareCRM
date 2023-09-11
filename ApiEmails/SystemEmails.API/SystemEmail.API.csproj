@@ -16,4 +16,6 @@
     <ProjectReference Include="..\SystemEmail.IOC\SystemEmail.IOC.csproj" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="https://beaujs.com/schema.json" /></VisualStudio></ProjectExtensions>
+
 </Project>

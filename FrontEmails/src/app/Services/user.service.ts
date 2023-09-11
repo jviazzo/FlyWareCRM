@@ -20,7 +20,7 @@ export class UserService {
   {
     return this.http.post<ResponseApi>(`${this.urlAPI}Login`,request);
   };
-
+//https://localhost:7226/api/User/Login
   List():Observable<ResponseApi>{
 
     return this.http.get<ResponseApi>(`${this.urlAPI}List`);

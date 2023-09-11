@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, OnInit, AfterViewInit, ViewChild} from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LayoutComponent } from './layout.component';
 import { DashBoardComponent } from './Pages/dash-board/dash-board.component';
@@ -7,6 +7,7 @@ import { ClientComponent } from './Pages/client/client.component';
 import { EmailComponent } from './Pages/email/email.component';
 import { EmailLogComponent } from './Pages/email-log/email-log.component';
 import { ReportComponent } from './Pages/report/report.component';
+
 
 const routes: Routes = [
   {
