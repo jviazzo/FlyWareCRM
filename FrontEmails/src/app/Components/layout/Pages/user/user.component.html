@@ -53,12 +53,12 @@
           <button mat-icon-button color="primary" (click)="EditUser(element)">
             <mat-icon>edit</mat-icon>
           </button>
+          <button mat-icon-button color="warm" (click)="DeleteUser(element)">
+            <mat-icon>delete</mat-icon>
+          </button>
         </td>
 
       </ng-container>
-
-
-
 
       <tr mat-header-row *matHeaderRowDef="colTable"></tr>
       <tr mat-row *matRowDef="let row; columns: colTable;"></tr>
@@ -69,6 +69,6 @@
       </tr>
     </table>
 
-    <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>
+    <mat-paginator [pageSizeOptions]="[5, 10, 25, 50]" aria-label="Select page of users"></mat-paginator>
   </div>
 </mat-card>

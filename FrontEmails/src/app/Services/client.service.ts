@@ -11,7 +11,7 @@ import { Client} from '../Interfaces/client';
 })
 export class RolService {
 
-  private urlAPI:string = environment.endPoint+"Client/";
+  private urlAPI:string = environment.endPoint+"Rol/";
 
   constructor(private http:HttpClient) {}
 
