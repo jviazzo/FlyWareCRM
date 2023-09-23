@@ -11,7 +11,7 @@
 <!--TODO CORREGIR ESTA PARTE-->
   <mat-form-field class="search-filter">
     <mat-label>Filter</mat-label>
-    <input matInput (keyup)="UseFilterInTable($event)" #input>
+    <input matInput (keyup)="UseFilterInTable($event)" maxlength="30" #input>
   </mat-form-field>
 
   <div class="mat-elevation-z2">
@@ -53,7 +53,7 @@
           <button mat-icon-button color="primary" (click)="EditUser(element)">
             <mat-icon>edit</mat-icon>
           </button>
-          <button mat-icon-button color="warm" (click)="DeleteUser(element)">
+          <button mat-icon-button color="accent" (click)="DeleteUser(element)">
             <mat-icon>delete</mat-icon>
           </button>
         </td>

@@ -1,6 +1,6 @@
 export interface Client {
 
-idClient:string,
+idClient:number,
 name:string,
 email:string,
 idCategory:number,

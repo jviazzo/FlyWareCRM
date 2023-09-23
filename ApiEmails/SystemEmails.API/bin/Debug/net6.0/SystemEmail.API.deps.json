@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "SystemEmail.API/1.0.0": {
         "dependencies": {
+          "NLog.Web.AspNetCore": "5.3.4",
           "Swashbuckle.AspNetCore": "6.5.0",
           "SystemEmail.BLL": "1.0.0",
           "SystemEmail.DTO": "1.0.0",
@@ -431,6 +432,38 @@
           }
         }
       },
+      "NLog/5.2.4": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.2.4.2092"
+          }
+        }
+      },
+      "NLog.Extensions.Logging/5.3.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging": "7.0.0",
+          "NLog": "5.2.4"
+        },
+        "runtime": {
+          "lib/net6.0/NLog.Extensions.Logging.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.3.4.395"
+          }
+        }
+      },
+      "NLog.Web.AspNetCore/5.3.4": {
+        "dependencies": {
+          "NLog.Extensions.Logging": "5.3.4"
+        },
+        "runtime": {
+          "lib/net6.0/NLog.Web.AspNetCore.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.3.4.944"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.5.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -685,6 +718,7 @@
       },
       "SystemEmail.BLL/1.0.0": {
         "dependencies": {
+          "NLog.Web.AspNetCore": "5.3.4",
           "SystemEmail.DAL": "1.0.0",
           "SystemEmail.DTO": "1.0.0",
           "SystemEmail.Model": "1.0.0",
@@ -696,6 +730,7 @@
       },
       "SystemEmail.DAL/1.0.0": {
         "dependencies": {
+          "NLog.Web.AspNetCore": "5.3.4",
           "SystemEmail.Model": "1.0.0"
         },
         "runtime": {
@@ -703,12 +738,16 @@
         }
       },
       "SystemEmail.DTO/1.0.0": {
+        "dependencies": {
+          "NLog.Web.AspNetCore": "5.3.4"
+        },
         "runtime": {
           "SystemEmail.DTO.dll": {}
         }
       },
       "SystemEmail.IOC/1.0.0": {
         "dependencies": {
+          "NLog.Web.AspNetCore": "5.3.4",
           "SystemEmail.BLL": "1.0.0",
           "SystemEmail.DAL": "1.0.0",
           "SystemEmail.Utility": "1.0.0"
@@ -719,7 +758,8 @@
       },
       "SystemEmail.Model/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10",
+          "NLog.Web.AspNetCore": "5.3.4"
         },
         "runtime": {
           "SystemEmail.Model.dll": {}
@@ -729,6 +769,7 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "NLog.Web.AspNetCore": "5.3.4",
           "SystemEmail.DTO": "1.0.0",
           "SystemEmail.Model": "1.0.0"
         },
@@ -1002,6 +1043,27 @@
       "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
       "path": "microsoft.win32.systemevents/5.0.0",
       "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "NLog/5.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/qzds1Cp9rQD53La3mlWOmCHsFSbmT9BCb8q6k3eOrbOYDfdf3ZN1hBW7IDImUD6V8BfPfEFBhXGDLOEOQxHgQ==",
+      "path": "nlog/5.2.4",
+      "hashPath": "nlog.5.2.4.nupkg.sha512"
+    },
+    "NLog.Extensions.Logging/5.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rxUGUqhE3DlcKfKhPJOI0xOt8q2+NX0NkBY9lbRXwZEYQsh8ASFS8X7K+Y7/dcE8v0tpAe7GF8rPD5h4h9Hpsg==",
+      "path": "nlog.extensions.logging/5.3.4",
+      "hashPath": "nlog.extensions.logging.5.3.4.nupkg.sha512"
+    },
+    "NLog.Web.AspNetCore/5.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-80FaN8CKu94E3mZqZ+r46nRyEYgnHMn4i3vPslbaINs8k+TqJClNFYw6uWLhPU4AN7PKi/jHHzpswqn7K8jgGg==",
+      "path": "nlog.web.aspnetcore/5.3.4",
+      "hashPath": "nlog.web.aspnetcore.5.3.4.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.5.0": {
       "type": "package",

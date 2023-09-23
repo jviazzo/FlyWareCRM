@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5ofeHhIsgxej8g4bFl0pA5B0FoKwVL+fPFchiY38KF6V6Hm9MDIVdxMSXYRMoTzZC5Sd4Gkg2BMz8L6Kl/ChDQ==",
+  "dgSpecHash": "Qbo5YEgty7EkV7nKlYPjg63TwwKzLtyW0xBtqQmzXI3zFnI+ez9f45tuyKGMadUKARxJgDGOudgdSy1vPTphDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmails.API\\SystemEmail.API.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,9 @@
     "C:\\Users\\juans\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\juans\\.nuget\\packages\\nlog\\5.2.4\\nlog.5.2.4.nupkg.sha512",
+    "C:\\Users\\juans\\.nuget\\packages\\nlog.extensions.logging\\5.3.4\\nlog.extensions.logging.5.3.4.nupkg.sha512",
+    "C:\\Users\\juans\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.4\\nlog.web.aspnetcore.5.3.4.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

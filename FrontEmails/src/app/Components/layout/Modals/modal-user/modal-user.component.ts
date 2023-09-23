@@ -6,9 +6,10 @@ import { MatDialogRef } from '@angular/material/dialog';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Rol } from 'src/app/Interfaces/rol';
 import { User } from 'src/app/Interfaces/user';
-import { RolService } from 'src/app/Services/client.service';
+import { RolService } from 'src/app/Services/rol.service';
 import { UserService } from 'src/app/Services/user.service';
 import { UtilityService } from 'src/app/Reusable/utility.service';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @Component({
   selector: 'app-modal-user',
@@ -31,15 +32,24 @@ export class ModalUserComponent {
     private _utilityService: UtilityService
   ) {
 
-    this.formUser = this.fbuilder.group({
-      fullName :['',Validators.required],
-      email :['',Validators.required],
-      idRol :['',Validators.required],
-      password :['',Validators.required],
-      isActive :['1',Validators.required]
-
-
-    })
+    if (userDate) {
+      this.formUser = this.fbuilder.group({
+        fullName: [userDate.fullName, Validators.required],
+        email: [userDate.email, Validators.required],
+        idRol: [userDate.idRol, Validators.required],
+        password: [userDate.password, Validators.required],
+        isActive: [userDate.isActive.toString(), Validators.required]
+      });
+    } else {
+      // Si userDate es null, puedes inicializar el formulario con valores predeterminados o vacíos.
+      this.formUser = this.fbuilder.group({
+        fullName: ['', Validators.required],
+        email: ['', Validators.required],
+        idRol: ['', Validators.required],
+        password: ['', Validators.required],
+        isActive: ['', Validators.required]
+      });
+    }
 
     if(this.userDate != null)
     {

@@ -14,10 +14,12 @@ namespace SystemEmail.API.Controllers
     {
 
         private readonly ICategoryService _categoryService;
+        private readonly ILogger<ICategoryService> _logger;
 
-        public CategoryController(ICategoryService categoryService)
+        public CategoryController(ICategoryService categoryService, ILogger<ICategoryService> logger)
         {
             _categoryService = categoryService;
+            _logger = logger;
         }
 
 
@@ -25,6 +27,7 @@ namespace SystemEmail.API.Controllers
         [Route("List")]
         public async Task<IActionResult> List(int id)
         {
+            _logger.LogWarning("Method invoked");
             var response = new Response<List<CategoryDTO>>();
 
             try

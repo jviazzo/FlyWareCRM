@@ -1,44 +1,64 @@
+using NLog;
+using NLog.Web;
 using SystemEmail.IOC;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+var logger = LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+logger.Debug("Start Log");
 
-builder.Services.InjectDependences(builder.Configuration);
-
-
-//activacion de Cors
-
-builder.Services.AddCors(options =>
+try
 {
-    options.AddPolicy("NewRules", app =>
+    // Add services to the container.
+
+    builder.Services.AddControllers();
+    // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+    builder.Services.AddEndpointsApiExplorer();
+    builder.Services.AddSwaggerGen();
+
+    builder.Services.InjectDependences(builder.Configuration);
+    builder.Logging.ClearProviders();
+    builder.Host.UseNLog();
+
+    //activacion de Cors
+
+    builder.Services.AddCors(options =>
     {
-        app.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+        options.AddPolicy("NewRules", app =>
+        {
+            app.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+        });
     });
-});
 
-var app = builder.Build();
+    var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    // Configure the HTTP request pipeline.
+    if (app.Environment.IsDevelopment())
+    {
+        app.UseSwagger();
+        app.UseSwaggerUI();
+    }
+
+    app.UseHttpsRedirection();
+
+    //activar la autorizacion.
+
+    app.UseCors("NewRules");
+
+    app.UseAuthorization();
+
+    app.MapControllers();
+
+    app.Run();
+
 }
+catch (Exception ex)
+{
 
-app.UseHttpsRedirection();
+    logger.Error(ex,"Program has stopped because there was an excepction");
 
-//activar la autorizacion.
-
-app.UseCors("NewRules");
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
+}finally
+{
+    NLog.LogManager.Shutdown();
+}

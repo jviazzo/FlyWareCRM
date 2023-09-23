@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XkdUB9wA36hop77kqp2yeMtifJGPhz8RfsHZssM3+ZiUjNunEuuLvuxMY7DO9vIzuXqcipJlvPD9uTO0g5es7Q==",
+  "dgSpecHash": "qjjRSZRFU4WEFPTG0QI3E13ZytCRVC/nyD9/zzbGmE3mMnoiOqYWxPJu9jA+YjHwzb0oC+GNkSQezQ6FSORs+Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\juans\\Desktop\\Programacion\\FlywareLabs\\ApiEmails\\SystemEmail.Model\\SystemEmail.Model.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,9 @@
     "C:\\Users\\juans\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\juans\\.nuget\\packages\\nlog\\5.2.4\\nlog.5.2.4.nupkg.sha512",
+    "C:\\Users\\juans\\.nuget\\packages\\nlog.extensions.logging\\5.3.4\\nlog.extensions.logging.5.3.4.nupkg.sha512",
+    "C:\\Users\\juans\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.4\\nlog.web.aspnetcore.5.3.4.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

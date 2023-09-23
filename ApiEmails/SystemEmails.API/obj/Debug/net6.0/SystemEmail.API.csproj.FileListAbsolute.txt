@@ -174,3 +174,7 @@ C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\SystemEmails.API\obj\D
 C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\SystemEmails.API\obj\Debug\net6.0\SystemEmail.API.pdb
 C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\SystemEmails.API\obj\Debug\net6.0\SystemEmail.API.genruntimeconfig.cache
 C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\SystemEmails.API\obj\Debug\net6.0\ref\SystemEmail.API.dll
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\SystemEmails.API\bin\Debug\net6.0\nlog.config
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\SystemEmails.API\bin\Debug\net6.0\NLog.dll
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\SystemEmails.API\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+C:\Users\juans\Desktop\Programacion\FlywareLabs\ApiEmails\SystemEmails.API\bin\Debug\net6.0\NLog.Web.AspNetCore.dll

@@ -10,6 +10,7 @@ import { EmailLogComponent } from './Pages/email-log/email-log.component';
 import { ReportComponent } from './Pages/report/report.component';
 import { SharedModule } from 'src/app/Reusable/shared/shared.module';
 import { ModalUserComponent } from './Modals/modal-user/modal-user.component';
+import { ModalClientComponent } from './Modals/modal-client/modal-client.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ModalUserComponent } from './Modals/modal-user/modal-user.component';
     EmailComponent,
     EmailLogComponent,
     ReportComponent,
-    ModalUserComponent
+    ModalUserComponent,
+    ModalClientComponent
   ],
   imports: [
     CommonModule,

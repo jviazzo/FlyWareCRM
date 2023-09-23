@@ -13,12 +13,7 @@ import { NgModule, } from '@angular/core';
 import Swal from 'sweetalert2';
 
 
-export interface UserData {
-  id: string;
-  name: string;
-  progress: string;
-  fruit: string;
-}
+
 
 @Component({
   selector: 'app-user',

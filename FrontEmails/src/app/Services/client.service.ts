@@ -9,9 +9,9 @@ import { Client} from '../Interfaces/client';
 @Injectable({
   providedIn: 'root'
 })
-export class RolService {
+export class ClientService {
 
-  private urlAPI:string = environment.endPoint+"Rol/";
+  private urlAPI:string = environment.endPoint+"Client/";
 
   constructor(private http:HttpClient) {}
 
